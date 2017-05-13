@@ -10,7 +10,7 @@
 
 Building the virtual machine is this easy:
 
-    $ git clone https://github.com/rails/rails-dev-box.git
+    $ git clone https://github.com/hoangphison/rails-dev-box.git
     $ cd rails-dev-box
     $ vagrant up
 

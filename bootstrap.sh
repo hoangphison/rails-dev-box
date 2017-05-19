@@ -4,10 +4,10 @@ echo 'Updating Package Information'
 sudo apt-get -y update  >/dev/null 2>&1
 
 echo 'Installing Development Tools'
-sudo apt-get -y build-essential git curl >/dev/null 2>&1
+sudo apt-get install -y build-essential git curl >/dev/null 2>&1
 
 echo 'Installing ExecJS Runtime'
-sudo apt-get -y nodejs >/dev/null 2>&1
+sudo apt-get install -y nodejs >/dev/null 2>&1
 
 echo 'Installing MySQL'
 debconf-set-selections <<< 'mysql-server mysql-server/root_password password root'
